@@ -1,0 +1,20 @@
+<ion-app>
+  <ion-split-pane contentId="main-content">
+
+    <ion-menu contentId="main-content" type="overlay" side="end" menuId="rightSideMenu">
+      <div class="menu_wrapper">
+        <div class="content" style="flex-grow:1">
+          <ion-list>
+            <ion-item>
+              <ion-icon name="ios-arrow-forward"></ion-icon>
+              <ion-label>test</ion-label>
+            </ion-item>
+          </ion-list>
+        </div>
+      </div>
+    </ion-menu>
+
+    <ion-router-outlet id="main-content"></ion-router-outlet>
+
+  </ion-split-pane>
+</ion-app>

@@ -1,0 +1,25 @@
+{
+  "ios": {
+    "debug": {
+      "automaticProvisioning":true,
+      "packageType":"development",
+      "buildFlag": [
+        "-UseModernBuildSystem=0",
+        "-allowProvisioningUpdates"
+      ]
+    },
+    "release": {
+      "buildFlag": [
+        "-UseModernBuildSystem=0"
+      ]
+    }
+  },
+  "android": {
+    "debug": {
+
+    },
+    "release": {
+
+    }
+  }
+}
